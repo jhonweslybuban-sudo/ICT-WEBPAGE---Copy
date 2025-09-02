@@ -1,22 +1,33 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=100">
-  <title>Student Profile</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICT HOME PAGE</title>
+  <link rel="stylesheet" href="Home-Design.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<head>
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="Home-Design.css">
-    <title>ICT HOME PAGE</title>
-    <body>
-        <ul class="navbar">
-					<li class="nav"><a id="nav" href="ICT-act.html">Activity</a></li>
-					<li class="nav"><a id="nav" href="ICT-coll.html">Collections</a></li>
-					<li class="nav"><a id="nav" href="ICT-abt.html">About Us</a></li>
-					<li class="nav"><a id="nav" href="ICT-Login.html">Return</a></li>
-				</ul>
-    </body>
+<body>
+  <nav>
+    <div class="navbar-container">
+      <span class="logo">ICT HOME PAGE</span>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="navbar">
+        <li class="nav"><a id="nav" href="ICT-act.html">Activity</a></li>
+        <li class="nav"><a id="nav" href="ICT-coll.html">Collections</a></li>
+        <li class="nav"><a id="nav" href="ICT-abt.html">About Us</a></li>
+        <li class="nav"><a id="nav" href="ICT-Login.html">Return</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Add your main content here -->
+  <script>
+    // Simple hamburger menu toggle
+    document.querySelector('.menu-toggle').onclick = function() {
+      document.querySelector('.navbar').classList.toggle('active');
+    };
+  </script>
+</body>
 </html>
