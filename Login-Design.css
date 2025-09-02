@@ -1,0 +1,369 @@
+*{/*CONFIRMED*/
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-image: url('bg4.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  
+
+}
+/*HEADER */
+#head{
+	background-color: #1B3440;
+	width: 100%;
+	color: #F5F1D5;
+	display: table;
+	opacity: 80%;
+	border-bottom: 2px solid;
+	border-color: silver;
+
+}
+
+#font1 {
+	color: white;
+}
+
+#headcontent{
+	padding: 1%;
+	max-width: 96%;
+
+}
+
+.header{
+	position: relative;
+	display: inline-flex;
+
+
+}
+#logoframe {
+	background-color: #e5e5e5;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	clip-path: circle();
+	height: 75px;
+	width: 75px;
+}
+
+#logo {
+	height: 70px;
+	width: 70px;
+	clip-path: circle();
+}
+
+#logotext{
+	font-family: "Consolas";
+	font-style: bold;
+	font-size: 30px;
+	padding: 10px;
+
+}
+
+.navbar{
+	position: relative;
+	list-style-type: none;
+	display: flex;
+
+}
+
+#navbar{
+	float: right;
+}
+
+.nav{
+	display: inline-flex;
+	margin: 10px;
+
+}
+
+#nav{
+	padding: 10px;
+	border: 5px outset #FFF9C5;
+	font-family: "Consolas";
+	font-style: bold;
+	color: black;
+	background-color: #4A849F;
+}
+
+ #nav:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+
+ /* LOG IN FORM */
+#ConLogin{
+	background-color: #4A849F;
+	opacity: 95%;
+	border: 2px solid;
+	border-color: silver;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 335px;
+	left: 3%;
+	top: -8%;
+	position: relative;
+	border-radius: 15px;
+}
+
+#Login{
+
+	color: #F5F1D5;
+	font-size: 35px;
+	top: 8%;
+	position: absolute;
+}
+
+#Username{
+  left: 8%;
+  top: 32%;
+  position: absolute;
+  width: 270px;
+  height: 28px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+
+}
+
+#UsernameLabel {
+  color: #F5F1D5;
+  left: 8%;
+  top: 26%;
+  font-size: 18px;
+  position: absolute;
+}
+
+#Password{
+	left: 8%;
+	top: 52%;
+	position: absolute;
+	width: 270px;
+	height: 28px;
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+  
+  }
+  
+  #PasswordLabel {
+	color: #F5F1D5;
+	left: 8%;
+	top: 46%;
+	position: absolute;
+	font-size: 18px;
+  }
+
+#Button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 120px;
+	font-size: 15px;
+	left: 32%;
+	top: 86%;
+	padding: 10px;
+	border: 5px outset whitesmoke;
+	background-color: #4A849F;
+	font-family: "Consolas";
+	font-style: bold;
+	color: black;
+	position: absolute;
+	border-radius: 10px;
+}
+#Button:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+
+#ConCollection {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width: 920px;
+	left: 30%;
+	top: 20%;
+	position: absolute;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border: 2px solid;
+    border-color: silver ;
+	overflow: hidden;
+	
+}
+
+#Wrapper{
+	width: 100%;
+	display: flex;
+	animation: slide 30s infinite;
+}
+
+#One{
+	width: 100%;
+}
+#Two{
+	width: 100%;
+}
+#Three{
+	width: 100%;
+}
+#Four{
+	width: 100%;
+}
+#Five{
+	width: 100%;
+}
+#Six{
+	width: 100%;
+}
+#Seven{
+	width: 100%;
+}
+#Eight{
+	width: 100%;
+}
+#Nine{
+	width: 100%;
+}
+
+
+@keyframes slide{
+	0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(-100%);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    25%{
+        transform: translateX(-200%);
+    }
+    30%{
+        transform: translateX(-200%);
+    }
+    35%{
+        transform: translateX(-300%);
+    }
+    40%{
+        transform: translateX(-300%);
+    }
+	45%{
+        transform: translateX(-400%);
+    }
+	50%{
+        transform: translateX(-400%);
+    }
+	55%{
+        transform: translateX(-500%);
+    }
+	60%{
+        transform: translateX(-500%);
+    }
+	65%{
+        transform: translateX(-600%);
+    }
+	70%{
+        transform: translateX(-600%);
+    }
+	75%{
+        transform: translateX(-700%);
+    }
+	80%{
+        transform: translateX(-700%);
+    }
+	85%{
+        transform: translateX(-800%);
+    }
+	90%{
+        transform: translateX(-800%);
+    }
+	95%{
+        transform: translateX(-900%);
+    }
+	100%{
+        transform: translateX(-900%);
+	}
+	110%{
+		transform: translateX(-1000%);
+	}
+	120%{
+        transform: translateX(-1000%);
+	}
+	125%{
+		transform: translateX(-1100%);
+	}
+	130%{
+        transform: translateX(-1100%);
+	}
+	135%{
+        transform: translateX(-1200%);
+	}
+}
+
+/* FOOTER */
+#Footer {
+	background-color: #1B3440;
+	opacity: 80%;
+	height: 31px;
+	width: 100%;
+	display: flex;
+	font-size: 20px;
+	font-family: "Consolas";
+	font-style: bold;
+	padding-top: 5px ;
+	color: #F5F1D5;
+	bottom: 0%;
+	position: absolute;
+	border-top: 2px solid;
+	border-color: silver;
+
+	
+
+}
+
+#Contacts {
+	left: 2%;
+	position: absolute;
+
+}
+
+#Email {
+	left: 23%;
+	position: absolute;
+
+}
+
+#Fb {
+	left: 47%;
+	position: absolute;
+} 
+#kc {
+	left: 72%;
+	position: absolute;
+} 
+
+#qw {
+	left: 90%;
+	position: absolute;
+}

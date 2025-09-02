@@ -1,0 +1,313 @@
+*{/*CONFIRMED */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('bg4.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(3px);
+
+ 
+  
+
+
+}
+
+#Header {
+  background-color: #1B3440;
+  opacity: 80%;
+  height: 80px;
+  width: 100%;
+  padding-top: 12px;
+  border-bottom: 3px solid;
+  border-color: silver;
+
+
+
+}
+
+#Logo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  top: 2%;
+	left: 4.5%;
+  position: absolute;
+  clip-path: circle();
+
+}
+
+#LogoIMG {
+  height: 55px;
+  width: 55px;
+  clip-path: circle();
+  position: absolute;
+}
+
+#DGCFM {
+  color: #F5F1D5;
+  font-size: 30px;
+  top: 3%;
+	left: 10%;
+  position: absolute;
+  }
+
+#Lines {
+  font-family: "Consolas";
+  font-style: bold;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  top: 7%;
+	left: 10%;
+  position: absolute;
+}
+
+#RegistrationCon {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 300px;
+  width: 600px;
+  padding: 25px 30px;
+  padding-top: 12px;
+  border: 2px solid;
+  border-color: silver ;
+  border-radius: 10px;
+  background-color: #4A849F;
+  opacity: 80%;
+  top: 20%;
+  left: 27%;
+  position: absolute;
+}
+
+#Registration{
+  color: #F5F1D5;
+  font-size: 30px;
+  top: 4%;
+  position: absolute;
+  font-style: bold;
+}
+
+#Name{
+  left: 7%;
+  top: 23%;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  opacity: 80%;
+
+}
+
+::placeholder {
+  color: white;
+}
+
+#NameLabel {
+  color: #F5F1D5;
+  left: 7%;
+  top: 17%;
+  position: absolute;
+}
+
+#Username{
+  left: 53%;
+  top: 23%;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  opacity: 80%;
+
+}
+
+#UsernameLabel {
+  color: #F5F1D5;
+  left: 53%;
+  top: 17%;
+  position: absolute;
+}
+
+
+#EmailInput{
+  left: 7%;
+  top: 43%;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  opacity: 80%;
+
+}
+
+#EmailLabel {
+  color: #F5F1D5;
+  left: 7%;
+  top: 37%;
+  position: absolute;
+}
+
+#Contact{
+  left: 53%;
+  top: 43%;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  opacity: 80%;
+
+}
+
+#ContactLabel {
+  color: #F5F1D5;
+  left: 53%;
+  top: 37%;
+  position: absolute;
+}
+
+#Password{
+  left: 7%;
+  top: 63%;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  opacity: 80%;
+
+}
+
+#PasswordLabel {
+  color: #F5F1D5;
+  left: 7%;
+  top: 57%;
+  position: absolute;
+}
+
+#ConPassword{
+  left: 53%;
+  top: 63%;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  opacity: 80%;
+
+}
+
+#ConPasswordLabel {
+  color: #F5F1D5;
+  left: 53%;
+  top: 57%;
+  position: absolute;
+}
+
+#Button {
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  top: 80%;
+  left: 32%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: black;
+	padding: 10px;
+	border: 5px outset whitesmoke;
+	font-family: "Consolas";
+	font-style: bold;
+	color: whitesmoke;
+	background-color: #4A849F;
+}
+
+#ButtonBack {
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  top: 80%;
+  left: 51%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: black;
+	padding: 10px;
+	border: 5px outset whitesmoke;
+	font-family: "Consolas";
+	font-style: bold;
+	color: whitesmoke;
+	background-color: #4A849F;
+}
+#ButtonBack:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+#Button:hover{
+	background-color: lightgray;
+	color: black;
+
+}
+
+#Footer {
+	background-color: #1B3440;
+	opacity: 80%;
+	height: 31px;
+  width: 100%;
+	display: flex;
+	font-size: 20px;
+	font-family: "Consolas";
+	padding-top: 5px ;
+	color: #F5F1D5;
+  border-top: 2px solid;
+  border-color: silver;
+  bottom: 0%;
+  position: absolute;
+
+  }
+  
+#Contacts {
+  left: 2%;
+  position: absolute;
+
+}
+
+#Email {
+  left: 23%;
+  position: absolute;
+
+}
+
+#Fb {
+  left: 47%;
+  position: absolute;
+} 
+#kc {
+  left: 72%;
+  position: absolute;
+} 
+
+#qw {
+  left: 90%;
+  position: absolute;
+}
