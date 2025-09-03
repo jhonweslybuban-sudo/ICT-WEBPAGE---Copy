@@ -12,7 +12,8 @@ body {
     height: 100vh;
     width: 100%;
     backdrop-filter: blur(3px);
-    margin-top: 60px; /* Added to ensure content is below the nav */
+    /* Remove or comment out the following line: */
+    /* margin-top: 60px; */
 }
 
 #font1 {
